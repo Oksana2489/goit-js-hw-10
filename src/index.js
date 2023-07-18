@@ -22,7 +22,7 @@ fetchBreeds()
     .catch(error => {
         refs.error.removeAttribute('hidden', '');
         console.log(error)
-    });;
+    });
         
 refs.select.addEventListener('change', (e) => {
    refs.loader.removeAttribute('hidden', '');
